@@ -32,18 +32,25 @@ Layer parameters:<br>
 * GlobalAveragePooling2D
 * Output
 
+#### 0.Input image
+![layer_0](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/test_image.png)
 #### 1.Conv2D with 60 filters (output)
 ![layer_0](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/layer_0.png)
 #### 2.MaxPool2D (pool_size=2) (output)
 ![layer_1](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/layer_1.png)
-#### 1.Conv2D with 60 filters (output)
+#### 3.Conv2D with 60 filters (output)
 ![layer_2](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/layer_2.png)
-#### 2.MaxPool2D (pool_size=2) (output)
+#### 4.MaxPool2D (pool_size=2) (output)
 ![layer_3](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/layer_3.png)
-#### 1.Conv2D with 60 filters (output)
+#### 5.Conv2D with 60 filters (output)
 ![layer_4](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/layer_4.png)
-#### 2.MaxPool2D (pool_size=2) (output)
+#### 6.MaxPool2D (pool_size=2) (output)
 ![layer_5](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/layer_5.png)
+#### 7.Prediction (final output)
+![prediction](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/predict.png)
+
+## Confusion Matrix
+![confusion_matrix](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/confusion_matrix.png)
 
 
 
