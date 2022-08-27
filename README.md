@@ -19,6 +19,20 @@ The data_augmentation model uses for dataset preprocessing.
 ## After augmetation
 ![augmetation_image](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/augmented_image.png)
 
+## CNN model
+CNN model is used to train the network.<br>
+Layer parameters:<br>
+* Input size (224,224,3)
+* Conv2D with 60 filters
+* MaxPool2D (pool_size=2)
+* Conv2D with 60 filters
+* MaxPool2D (pool_size=2)
+* Conv2D with 60 filters
+* MaxPool2D (pool_size=2)
+* GlobalAveragePooling2D
+* Output
+
+1.Conv2D with 60 filters (output)
 
 # Requirements
 * matplotlib==3.5.2
