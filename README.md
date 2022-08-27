@@ -32,7 +32,9 @@ Layer parameters:<br>
 * GlobalAveragePooling2D
 * Output
 
-1.Conv2D with 60 filters (output)
+#### 1.Conv2D with 60 filters (output)
+![layer_0](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/layer_0.png)
+
 
 # Requirements
 * matplotlib==3.5.2
