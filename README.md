@@ -16,6 +16,9 @@ The data_augmentation model uses for dataset preprocessing.
 ## Images
 ![screenshot](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/original.png)
 
+## After augmetation
+![augmetation_image](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/augmented_image.png)
+
 
 # Requirements
 * matplotlib==3.5.2
