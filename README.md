@@ -1,10 +1,7 @@
 # Potato-Leaf-Disease-Dataset
 
 
-This model predicts potato diseases.This model prediction accuracy is 99.67%(test data) && 98% accuracy for the validation data.
-
-# Dataset
-## Data preprocessing
+This model predicts potato diseases.This model prediction accuracy is 99.67%(test data) && 98% accuracy fo## Data preprocessing
 The data_augmentation model uses for dataset preprocessing.
 * Flip (horizontal)
 * Roation (0.2)
@@ -32,6 +29,20 @@ Layer parameters:<br>
 * GlobalAveragePooling2D
 * Output
 
+### Compile model
+Compile the model with the following options:
+* Loss function (categorical_crossentropy)
+* optimizer (Adam lr=0.001)
+* metrics (accuracy)
+
+### Fit model
+Then fit the model with the following parameters:
+* train_data
+* epochs (200)
+* validation_data (test data)
+* validation_steps (len of test_data)
+
+
 #### 0.Input image
 ![layer_0](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/test_image.png)
 #### 1.Conv2D with 60 filters (output)
@@ -54,13 +65,14 @@ Layer parameters:<br>
 
 
 
+
 # Requirements
-* matplotlib==3.5.2
-* numpy==1.23.1
-* Pillow==9.2.0
-* scikit-learn==1.1.1
-* scipy==1.8.1
-* tensorflow==2.9.1
+* matplotlib 3.5.2
+* numpy 1.23.1
+* Pillow 9.2.0
+* scikit-learn 1.1.1
+* scipy 1.8.1
+* tensorflow 2.9.1
 
 
 # Demo
@@ -80,3 +92,18 @@ python potato.py
 |   ├─Valid
 |
 </pre>
+
+# Reference
+* [Tensorflow](https://www.tensorflow.org/)
+* [data_augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
+
+# Links (dataset & code)
+* [Potato Leaf Disease Dataset](https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset)
+* [code](https://www.kaggle.com/code/hsakash/potato-disease-test-data-99-67-valid-data-98)
+
+
+# Author
+HSAkash
+* [Facebook](https://www.facebook.com/hemel.akash.7/)
+* [Kaggle](https://www.kaggle.com/hsakash)
+* [Kaggle-code]r the validation data.
