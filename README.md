@@ -14,7 +14,7 @@ The data_augmentation model uses for dataset preprocessing.
 * Rescaling (0-255)-(0-1)
 
 ## Images
-[screenshot](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/original.png)
+![screenshot](https://github.com/HSAkash/Potato-Leaf-Disease-Dataset/raw/main/related_images/original.png)
 
 
 # Requirements
