@@ -106,4 +106,3 @@ python potato.py
 HSAkash
 * [Facebook](https://www.facebook.com/hemel.akash.7/)
 * [Kaggle](https://www.kaggle.com/hsakash)
-* [Kaggle-code]r the validation data.
