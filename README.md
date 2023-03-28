@@ -105,5 +105,6 @@ python potato.py
 
 # Author
 HSAkash
-* [Facebook](https://www.facebook.com/hemel.akash.7/)
+* [Linkedin](https://www.linkedin.com/in/hemel-akash/)
 * [Kaggle](https://www.kaggle.com/hsakash)
+* [Facebook](https://www.facebook.com/hemel.akash.7/)
