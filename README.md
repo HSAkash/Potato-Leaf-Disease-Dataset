@@ -1,7 +1,7 @@
 # Potato-Leaf-Disease-Dataset
 
 
-This model predicts potato diseases.This model prediction accuracy is `99.67%`(test data) && `98%` accuracy (Valiadation data).
+This model predicts potato diseases.This model prediction accuracy is `99.98%`(test data) && `99.92%` accuracy (Valiadation data).
 ## Data preprocessing
 The data_augmentation model uses for dataset preprocessing.
 * Flip (horizontal)
